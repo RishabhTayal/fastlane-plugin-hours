@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 module Fastlane
   module Actions
     class HoursAction < Action
