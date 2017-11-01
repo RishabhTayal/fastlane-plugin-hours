@@ -27,16 +27,16 @@ module Fastlane
           end
           duration_minutes = (duration / 60.0).round
           if duration_minutes == 0
-            UI.success "Total time saved #{duration.round} seconds"
+            UI.success "Total time saved #{duration.round} seconds till now 🎉"
           elsif duration_minutes >= 60
             duration_hours = (duration_minutes / 60.0).round
             if duration_hours == 1
-              UI.success "Total time saved #{duration_hours} hour"
+              UI.success "Total time saved #{duration_hours} hour till now 🎉"
             else
-              UI.success "Total time saved #{duration_hours} hours"
+              UI.success "Total time saved #{duration_hours} hours till now 🎉"
             end
           else
-            UI.success "Total time saved #{duration_minutes} minutes"
+            UI.success "Total time saved #{duration_minutes} minutes till now 🎉"
           end
 
         end
