@@ -1,0 +1,5 @@
+lane :test do
+  hours(start_timing: true)
+  sleep(10)
+  hours(measure_timing: true)
+end
