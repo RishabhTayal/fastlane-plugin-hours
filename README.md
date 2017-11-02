@@ -40,9 +40,7 @@ end
 ```
 
 Here is a gif showing what `hours` does:
-<h3 alig="left">
-![alt Hours example](https://raw.githubusercontent.com/RishabhTayal/fastlane-plugin-hours/master/example.gif)
-</h3>
+![Hours](https://raw.githubusercontent.com/RishabhTayal/fastlane-plugin-hours/master/example.gif)
 
 
 ## Run tests for this plugin
