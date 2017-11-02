@@ -41,7 +41,7 @@ end
 
 Here is a gif showing what `hours` does:
 <h3 alig="left">
-<img src="example.gif" alt="Hours example" width=800 />
+![alt Hours example](example.gif)
 </h3>
 
 
