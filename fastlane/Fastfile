@@ -9,9 +9,9 @@ end
 
 # Run `bundle exec fastlane gem_release` to release new version of 
 lane :gem_release do
-	sh "bundle install"
-	sh "rake install"
-	sh "rake release"
+  sh "bundle install"
+  sh "rake install"
+  sh "rake release"
 end
 
 after_all do |lane|
