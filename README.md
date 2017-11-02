@@ -1,6 +1,8 @@
 # hours plugin
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-hours)
+[![Gem Version](https://badge.fury.io/rb/fastlane-plugin-hours.svg)](https://badge.fury.io/rb/fastlane-plugin-hours)
+
 
 ## Getting Started
 
