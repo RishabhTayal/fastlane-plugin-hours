@@ -2,6 +2,7 @@
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-hours)
 [![Gem Version](https://badge.fury.io/rb/fastlane-plugin-hours.svg)](https://badge.fury.io/rb/fastlane-plugin-hours)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/RishabhTayal/fastlane-plugin-hours/blob/master/LICENSE)
 
 
 ## Getting Started
