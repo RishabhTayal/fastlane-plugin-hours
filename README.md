@@ -41,7 +41,7 @@ end
 
 Here is a gif showing what `hours` does:
 <h3 alig="left">
-![alt Hours example](https://github.com/RishabhTayal/fastlane-plugin-hours/blob/master/example.gif)
+![alt Hours example](https://raw.githubusercontent.com/RishabhTayal/fastlane-plugin-hours/master/example.gif)
 </h3>
 
 
