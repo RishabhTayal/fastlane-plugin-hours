@@ -38,6 +38,13 @@ after_all do |lane|
 end
 
 ```
+
+Here is a gif showing what `hours` does:
+<h3 alig="left">
+<img src="example.gif" alt="Hours example" width=500 />
+</h3>
+
+
 ## Run tests for this plugin
 
 To run both the tests, and code style validation, run
