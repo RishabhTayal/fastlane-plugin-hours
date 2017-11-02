@@ -7,8 +7,8 @@ require 'fastlane/plugin/hours/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-hours'
   spec.version       = Fastlane::Hours::VERSION
-  spec.author        = 'Rishabh Tayal'
-  spec.email         = 'rtayal11@gmail.com'
+  spec.author        = %q{Rishabh Tayal}
+  spec.email         = %q{rtayal11@gmail.com}
 
   spec.summary       = 'Record total time saved by fastlane'
   spec.homepage      = "https://github.com/RishabhTayal/fastlane-plugin-hours"

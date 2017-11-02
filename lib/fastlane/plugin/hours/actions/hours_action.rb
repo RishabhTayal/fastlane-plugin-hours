@@ -47,7 +47,7 @@ module Fastlane
       end
 
       def self.authors
-        ["Rishabh Tayal"]
+        ["@RishabhTayal"]
       end
 
       def self.return_value
@@ -55,21 +55,22 @@ module Fastlane
       end
 
       def self.details
-        # Optional:
-        ""
+        [
+          "This action will calculate the total time saved for your project and save the save_duration.txt in `fastlane` folder."
+        ].join(' ')
       end
 
       def self.available_options
         [
           FastlaneCore::ConfigItem.new(key: :start_timing,
                                   env_name: "HOURS_START_TIMING",
-                               description: "A description of your option",
+                               description: "Starts recording time. Set this to `true` in `before_all` block",
                                   optional: false,
                                   is_string: false,
                                   default_value: false),
           FastlaneCore::ConfigItem.new(key: :measure_timing,
                                   env_name: "HOURS_MEASURE_TIMING",
-                               description: "A description of your option",
+                               description: "Calculates the total time taken for this lane. Set this to `true` in `after_all` block",
                                   optional: false,
                                   is_string: false,
                                   default_value: false)

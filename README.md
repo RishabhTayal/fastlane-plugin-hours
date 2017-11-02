@@ -24,11 +24,19 @@ Record total time saved by fastlane. It maintains a local file called `save_dura
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
 
 ```ruby
-  lane :your_lane do
-    hours(start_timing: true)
-	 # your lane
-    hours(measure_timing: true)
-  end
+before_all do
+  hours(start_timing: true)
+end
+
+lane :release do
+  gym
+  deliver
+end
+
+after_all do |lane|
+  hours(measure_timing: true)
+end
+
 ```
 ## Run tests for this plugin
 

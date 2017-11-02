@@ -1,5 +1,17 @@
-lane :test do
+before_all do
   hours(start_timing: true)
-  sleep(10)
+end
+
+lane :test do
+  sleep(1)
+end
+
+lane :gem_release do
+	sh "bundle install"
+	sh "rake install"
+	sh "rake release"
+end
+
+after_all do |lane|
   hours(measure_timing: true)
 end
