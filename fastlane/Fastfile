@@ -3,9 +3,11 @@ before_all do
 end
 
 lane :test do
-  sleep(1)
+  gym
+  deliver
 end
 
+# Run `bundle exec fastlane gem_release` to release new version of 
 lane :gem_release do
 	sh "bundle install"
 	sh "rake install"
