@@ -12,7 +12,9 @@ fastlane add_plugin hours
 
 ## About hours
 
-Record total time saved by fastlane. It maintains a local file called `save_duration.txt` in the `fastlane` directory.
+Record total time saved by fastlane. It maintains a local file called `save_duration.txt` in the `fastlane` directory. When your run a lane it will calculate the time saved by `fastlane` and keep on adding it for your project.
+
+**It does not track time on [hoursforteams.com](https://www.hoursforteams.com)**
 
 ## Example
 
