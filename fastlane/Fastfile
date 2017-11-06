@@ -2,9 +2,13 @@ before_all do
   hours(start_timing: true)
 end
 
-lane :test do
+lane :example do
   gym
   deliver
+end
+
+lane :test do
+	sleep(5)
 end
 
 # Run `bundle exec fastlane gem_release` to release new version of 
